@@ -1,0 +1,38 @@
+Iniciando um projeto:
+    ☐ Crie uma pasta com o nome "cinema"
+    ☐ Execute o comando "node --version" no terminal
+    ☐ Inicialize o projeto utilizando "npm init -y"
+    ☐ Dentro da pasta "cinema" criar um arquivo "cinema.js"
+
+
+Hello Word:
+    ☐ Dentro do arquivo "cinema.js" criar uma variável "let mensagem = "Olá, mundo"
+    ☐ Utilizar console.log("nomeDaVariavel") para exibir no terminal a mensagem
+    ☐ No terminal utilize "node index.js" para exibir a mensagem no terminal 
+
+
+Módulo de terceiro:
+    ☐ Instale o módulo "moment"
+        Dicas:
+            npm instal nomeDoMudulo
+            link Documentação:
+                https://momentjs.com/
+        
+    ☐ Dentro do arquivo "index.js" faça o require da biblioteca 'moment'
+        Dicas:
+            const moment = require('moment')        
+    ☐ Dentro do arquivo "index.js" utilize console.log(moment().format('MMMM Do YYYY, h:mm:ss a') )
+    ☐ No terminal utilize "node index.js" para exibir a mensagem no terminal 
+
+
+Dicas do prof:
+    Comando Terminal:
+    Comando para iniciar um projeto: "npm init -y"
+    Comando para instalar biblioteca de terceiro: "npm install nome da biblioteca"
+    Comando para executar um script.js: "node NomeDoArquivo.js"
+    Script: 
+    console.log(): Exibe uma mensagem na console
+    const modulo = require('nodeDoModulo'): Para requerer um módulo
+
+
+    
